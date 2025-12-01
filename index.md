@@ -1,419 +1,337 @@
+<h1 style="font-size: 42px; font-weight: bold;">
 🌐 AULAS HARD – Introdução às Redes e Internet + Git
-📘 Resumo completo das aulas | Professor: Kenji Taniguchi & Felipe Ozias
+</h1>
 
+<h2 style="font-size: 26px; font-weight: 600;">
+📘 Resumo completo das aulas | Professor: Kenji Taniguchi & Felipe Ozias
+</h2>
+
+<h3 style="font-size: 22px; font-weight: bold;">
 ✨ Visão Geral
+</h3>
 
 Este README reúne resumos claros, didáticos e organizados de todas as aulas HARD do curso Introdução às Redes e à Internet e Git.
-Cada tópico possui explicações simples, curtas e ideais para consulta rápida.
+Cada tópico possui explicações simples, curtas e ideais para consulta rápida.  
 Perfeito para estudos, revisões e provas.
 
+---
+
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #1 – Protocolos de Comunicação em Redes
-🧩 Matéria: Introdução às Redes e à Internet
+</h3>
 
-🔹 Topologia utilizada pelos backbones
+🧩 **Matéria:** Introdução às Redes e à Internet
 
+🔹 **Topologia utilizada pelos backbones**  
 Backbones usam topologia em malha (mesh) para garantir alta redundância e rotas alternativas caso um enlace falhe.
 
-🔹 Semiótica na rede de computadores
-
+🔹 **Semiótica na rede de computadores**  
 Estuda como mensagens e sinais são interpretados na comunicação — essencial para entender protocolos.
 
-🔹 Internet x Intranet x Extranet
+🔹 **Internet x Intranet x Extranet**  
+🌍 **Internet:** rede global pública  
+🏢 **Intranet:** rede privada interna  
+🔗 **Extranet:** parte da intranet acessível a parceiros externos
 
-🌍 Internet: rede global pública.
-
-🏢 Intranet: rede privada interna.
-
-🔗 Extranet: parte da intranet acessível a parceiros externos.
-
-🔹 AJAX
-
+🔹 **AJAX**  
 Permite atualizar partes da página sem recarregar tudo, usando JavaScript + HTTP.
 
-🔹 Ferramentas UI/UX
-
+🔹 **Ferramentas UI/UX**  
 Figma, Adobe XD e Sketch ajudam a planejar telas intuitivas e funcionais.
 
-🔹 IA x Machine Learning
+🔹 **IA x Machine Learning**  
+🤖 **IA:** máquinas que imitam inteligência.  
+📈 **ML:** técnica dentro da IA que aprende com dados.
 
-🤖 IA: máquinas que imitam inteligência.
+---
 
-📈 ML: técnica dentro da IA que aprende com dados.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #2 – Endereçamento IP, Sub-redes e Portas
+</h3>
 
-🔹 NAT
-
-Traduz IPs privados → públicos para economizar IPv4.
+🔹 **NAT**  
+Traduz IPs privados → públicos para economizar IPv4.  
 Problemas: quebra de ponta a ponta, dificulta P2P e geolocalização.
 
-🔹 TCP x UDP
-
-TCP: confiável, com confirmação.
-
-UDP: rápido, sem garantia.
+🔹 **TCP x UDP**  
+**TCP:** confiável, com confirmação.  
+**UDP:** rápido, sem garantia.  
 A web usa TCP por confiabilidade.
 
-🔹 TLS
-
+🔹 **TLS**  
 Criptografa e autentica comunicações. Impede espionagem, adulteração e fraudes.
 
-🔹 Contratos Inteligentes
-
+🔹 **Contratos Inteligentes**  
 Programas que executam regras automaticamente em blockchains.
 
+---
+
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #3 – Serviços e Aplicações na Internet
+</h3>
 
-🔹 Confiabilidade
-
+🔹 **Confiabilidade**  
 Erros podem vir de falha de rede, perda de pacotes ou aplicações mal projetadas.
 
-🔹 IPv4 → IPv6
-
+🔹 **IPv4 → IPv6**  
 IPv6 resolve o esgotamento de endereços e melhora a eficiência.
 
-🔹 Unicast / Multicast / Broadcast
+🔹 **Unicast / Multicast / Broadcast**  
+👤 **Unicast:** um para um  
+👥 **Multicast:** um para grupo  
+📢 **Broadcast:** um para todos
 
-👤 Unicast: um para um
+🔹 **Bloqueio de portas**  
+Provedores bloqueiam por segurança.  
+Soluções: VPN, portas alternativas ou tunelamento.
 
-👥 Multicast: um para grupo
-
-📢 Broadcast: um para todos
-
-🔹 Bloqueio de portas
-
-Provedores bloqueiam por segurança; solução: VPN, portas alternativas ou tunelamento.
-
-🔹 QoS
-
+🔹 **QoS**  
 Controla prioridade e qualidade do tráfego.
 
-🔹 VPN
-
+🔹 **VPN**  
 Cria um túnel seguro criptografado entre cliente e servidor.
 
+---
+
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #4 – Serviços e Aplicações
+</h3>
 
-🔹 API RESTful
-
+🔹 **API RESTful**  
 Interface que usa HTTP para troca de dados de forma padronizada.
 
-🔹 Arquitetura em 3 camadas
+🔹 **Arquitetura em 3 camadas**
 
-Apresentação
+- Apresentação
+- Lógica
+- Dados
 
-Lógica
+🔹 **JSON x XML**  
+**JSON:** leve, moderno.  
+**XML:** mais verboso e flexível.
 
-Dados
+🔹 **Protobuf**  
+Formato binário rápido e compacto.
 
-🔹 JSON x XML
-
-JSON: leve, moderno, usado na web.
-
-XML: mais verboso, porém flexível.
-
-🔹 Protobuf
-
-Formato binário, muito mais rápido e compacto que JSON.
-
-🔹 YAML
-
+🔹 **YAML**  
 Formato simples para configurações (Docker, Kubernetes, CI/CD).
 
-🔹 Microsserviços
+🔹 **Microsserviços**  
+Arquitetura com serviços independentes e escaláveis.
 
-Arquitetura onde cada serviço é independente, escalável e distribuído.
+🔹 **OAuth**  
+Autenticação via terceiros (Google, Facebook).
 
-🔹 OAuth
+🔹 **DDoS**  
+Ataques que sobrecarregam servidores.  
+Soluções: WAF, rate limiting, CDN.
 
-Permite autenticação usando terceiros (Google, Facebook).
+---
 
-🔹 DDoS
-
-Ataques que sobrecarregam servidores. Soluções: WAF, rate limiting, CDN.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #5 – DNS
+</h3>
 
-🔹 Envenenamento de Cache
-
-Engana resolvers com IPs falsos.
+🔹 **Envenenamento de Cache**  
+Engana resolvers com IPs falsos.  
 Evita-se com DNSSEC e validação.
 
-🔹 NS Lookup
+🔹 **NS Lookup**  
+Consulta registros DNS.
 
-Ferramenta para consultar registros DNS.
+🔹 **Registro PTR**  
+Aponta IP → domínio; difícil por depender do provedor.
 
-🔹 Registro PTR
-
-Aponta IP → domínio; difícil pela necessidade de permissões do provedor.
-
-🔹 DNS Dinâmico
-
+🔹 **DNS Dinâmico**  
 Atualiza registros automaticamente quando o IP muda.
 
-🔹 Migração de Domínio
+🔹 **Migração de Domínio**  
+Exige cuidado para evitar indisponibilidade e perda de e-mails.
 
-Requer cuidado para evitar indisponibilidade e perda de e-mails.
+🔹 **Registro de Domínio**  
+Feito por entidades como Registro.br.
 
-🔹 Registro de Domínio
+---
 
-Feito por entidades como Registro.br, com regras e prazos de renovação.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #6 – Arquitetura da Internet
+</h3>
 
-🔹 Ataques DDoS
+🔹 **Ataques DDoS**  
+Saturam servidores com tráfego falso.  
+Mitigação: blackholing, rate limiting, Firewalls/Cloudflare.
 
-Saturam um servidor com tráfego falso.
-Mitigação:
+🔹 **Roteamento Unicast/Multicast**  
+Define como pacotes vão individualmente ou para grupos.
 
-blackholing
+---
 
-rate limiting
-
-Firewalls/Cloudflare
-
-🔹 Roteamento Unicast/Multicast
-
-Define como pacotes são enviados individualmente ou para grupos.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #7 – Redes de Computadores
+</h3>
 
-🔹 Latência
+🔹 **Latência**  
+Tempo de resposta; influenciada por distância e congestionamento.
 
-Tempo de resposta da rede. Influenciada por distância, saltos e congestionamento.
+🔹 **Insider Threat**  
+Ameaça interna causada por funcionários.
 
-🔹 Insider Threat
-
-Ameaça interna causada por funcionários. Prevenção: controle de acesso e monitoramento.
-
-🔹 LAN, WAN, MAN, PAN
-
-LAN: local
-
-WAN: longa distância
-
-MAN: metropolitana
-
+🔹 **LAN, WAN, MAN, PAN**  
+LAN: local  
+WAN: longa distância  
+MAN: metropolitana  
 PAN: pessoal
 
-🔹 Ethernet x Token Ring
+🔹 **Ethernet x Token Ring**  
+Token Ring é eficiente, porém obsoleto.
 
-Token Ring usa passagem de token e evita colisões — muito eficiente, porém obsoleto.
+---
 
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #8 – Segurança de Redes
+</h3>
 
-🔹 Ameaças
-
+🔹 **Ameaças**  
 Phishing, ransomware, MITM, DDoS.
-IA aumenta o poder da engenharia social.
 
-🔹 CIA (Disponibilidade, Integridade, Confidencialidade)
+🔹 **CIA (Disponibilidade, Integridade, Confidencialidade)**
 
-Pilares da segurança.
+🔹 **Malwares**  
+Exploram falhas.
 
-🔹 Malwares
+🔹 **VPN Remota e Site-to-Site**  
+Conectam usuários ou redes.
 
-Softwares maliciosos que exploram falhas.
+🔹 **Container x VM**  
+Containers = leves  
+VMs = maior isolamento
 
-🔹 VPN Remota, Site-to-Site e alternativas
+🔹 **Patches**  
+Corrigem vulnerabilidades.
 
-Conectam usuários ou redes inteiras por criptografia.
+🔹 **ORM**  
+Evita SQL Injection.
 
-🔹 Container x VM
+---
 
-Containers são leves; VMs isolam mais.
-
-🔹 Patches
-
-Atualizações que corrigem vulnerabilidades.
-
-🔹 ORM
-
-Mapeamento de objetos para bancos de dados — evita SQL Injection.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #9 – Segurança na Web
+</h3>
 
-🔹 HTTPS
-
+🔹 **HTTPS**  
 Criptografia + integridade + autenticação.
 
-🔹 TLS/SSL
+🔹 **TLS/SSL**  
+Handshake assimétrico + dados simétricos.
 
-Usa chaves assimétricas no handshake e chave simétrica nos dados.
+🔹 **Certificados**  
+Validados por CAs.
 
-🔹 Certificados
+🔹 **Renovação**  
+Certificados expiram e tornam o site inseguro.
 
-Emitidos por CAs após validação (HTTP, DNS ou arquivo).
+🔹 **Confidencialidade / Integridade / Autenticidade**
 
-🔹 Validade e renovação
+🔹 **Criptografia ponta a ponta**  
+Somente origem e destino leem.
 
-Certificados expiram; sites ficam inseguros e podem ser bloqueados.
+---
 
-🔹 Objetivos da Criptografia
-
-Confidencialidade
-
-Integridade
-
-Autenticidade
-
-🔹 Criptografia ponta a ponta
-
-Só origem/destino leem a mensagem.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD #10 – Tendências e Desafios nas Redes Modernas
+</h3>
 
-🔹 IoT
+🔹 **IoT**  
+Desafios de segurança e protocolos (MQTT, CoAP).
 
-Desafios de segurança, conectividade e protocolos como MQTT, CoAP.
+🔹 **SDN**  
+Redes programáveis.
 
-🔹 SDN
+🔹 **Blockchain**  
+Blocos encadeados + consenso.
 
-Separa o plano de controle do de dados — redes programáveis.
+🔹 **CDNs**  
+Caching, performance, segurança.
 
-🔹 Blockchain
+🔹 **Cloud vs On-Premise**  
+Nuvem = escalável  
+Local = mais controle
 
-Estrutura em blocos encadeados + consenso distribuído.
+🔹 **Serviços**  
+Cloudflare, AWS S3.
 
-🔹 CDNs
+---
 
-Proteção, caching, performance (Cloudflare, Akamai).
-
-🔹 Cloud vs On-Premise
-
-Nuvem = escalável.
-Local = mais controle, porém mais custos.
-
-🔹 Serviços
-
-Cloudflare (WAF, CDN, DNS)
-AWS S3 (armazenamento escalável)
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD Git #1 – Git, VSCode e GitLens
+</h3>
 
-🔹 O que é Git
+🔹 **O que é Git**  
+Sistema de controle de versão.
 
-Git é um sistema de controle de versão que registra todas as mudanças feitas no projeto, permitindo voltar no tempo, criar ramificações (branches) e trabalhar em equipe com segurança.
+🔹 **O que é VS Code**  
+Editor rápido e extensível.
 
-🔹 O que é VS Code
+🔹 **Configurações**  
+`git config --global`
 
-VS Code (Visual Studio Code) é um editor de código leve, rápido e extensível, usado para programar, editar arquivos, integrar com Git e instalar extensões como o GitLens.
+🔹 **Restore x Reset**
 
-🔹 Configurações
+🔹 **GitLens**  
+Histórico e comparações.
 
-Feitas em:
+🔹 **Boas práticas**
 
-git config --global …
+---
 
-🔹 Restore x Reset
-
-restore: recupera arquivos
-reset: altera histórico
-
-🔹 GitLens
-
-Extensão do VSCode para visualizar histórico, autores e comparar mudanças.
-
-🔹 Boas práticas
-
-Commits pequenos, mensagens claras, branches organizadas.
-
+<h3 style="font-size: 22px; font-weight: bold;">
 📚 AULA HARD Git #2 – Branches e Merge
+</h3>
 
-🔹 Branch
+🔹 **Branch**  
+Linha separada.
 
-Linha separada de desenvolvimento.
-
-🔹 HEAD
-
+🔹 **HEAD**  
 Aponta para o commit atual.
 
-🔹 git stash
+🔹 **git stash**  
+Guarda mudanças temporárias.
 
-Guarda mudanças temporariamente.
+🔹 **Merge**  
+Combina branches.
 
-🔹 Merge
+---
 
-Combina branches; pode gerar conflitos.
+<h3 style="font-size: 22px; font-weight: bold;">
+📚 AULA HARD Git #3 – Repositório remoto
+</h3>
 
-📚 AULA HARD Git #3 - Respositório remoto
+🔹 Criar repositório remoto  
+🔹 Conectar projeto  
+🔹 Enviar arquivos  
+🔹 Enviar novas alterações  
+🔹 Baixar atualizações
 
-O que é um repositório remoto?
+Resumo: o repositório remoto é onde seu projeto mora na nuvem.
 
-É uma cópia do seu projeto armazenada na nuvem (como no GitHub).
-Ele permite guardar, compartilhar e sincronizar seu código com outras pessoas ou outros computadores.
+---
 
-Pontos importantes
-1️⃣ Criar um repositório remoto
+<h3 style="font-size: 22px; font-weight: bold;">
+📚 AULA HARD Git #4 – Pull Request
+</h3>
 
-Você cria um espaço vazio no GitHub onde o seu projeto será enviado.
+🔹 **O que é um Pull Request?**  
+Pedido para revisar e juntar código.
 
-2️⃣ Conectar seu projeto ao repositório remoto
+🔹 **Quando usar**  
+Branches, revisões e organização.
 
-Depois de criar o repositório online, você liga o seu projeto local a ele.
-A partir daí, seu computador “sabe” para onde deve enviar as atualizações.
+🔹 **Como funciona**  
+Você envia uma branch e abre o PR.
 
-3️⃣ Enviar seu projeto para o remoto
+🔹 **Revisão**  
+Comentários, ajustes e aprovação.
 
-Após conectar, você pode mandar todos os arquivos do seu projeto para o GitHub.
+🔹 **Merge e exclusão da branch**
 
-4️⃣ Enviar novas alterações
-
-Sempre que fizer mudanças no seu código, você salva localmente e envia para o repositório remoto para manter tudo atualizado.
-
-5️⃣ Baixar alterações do remoto
-
-Caso tenha mudanças no GitHub (seja você ou outra pessoa), você pode baixar essas modificações para o seu computador.
-
-Resumo
-
-O repositório remoto é onde seu projeto mora na internet.
-Você envia mudanças e baixa atualizações para manter tudo sincronizado com o GitHub.
-
-📚 AULA HARD Git #4 -
-
-O que é um Pull Request?
-
-É um pedido para revisar e juntar o código de uma branch em outra (normalmente para a principal, a main).
-É uma forma organizada de colaborar, revisar e aprovar código antes dele entrar no projeto oficial.
-
-Pontos importantes
-1️⃣ Quando usar um Pull Request
-
-Quando você cria uma branch separada para trabalhar em algo específico.
-
-Quando quer revisar o que mudou antes de juntar ao projeto principal.
-
-Quando trabalha em equipe (ou mesmo sozinho, para manter histórico organizado).
-
-2️⃣ Como funciona um PR
-
-Você envia sua branch para o GitHub e abre um Pull Request dizendo:
-“Essas são as alterações que quero adicionar ao projeto principal.”
-
-3️⃣ Revisão do PR
-
-Outras pessoas (ou só você mesmo) podem:
-
-Ver todas as alterações
-
-Comentar linha por linha
-
-Discutir ideias
-
-Pedir ajustes
-
-Aprovar a mudança
-
-4️⃣ Fazer o merge
-
-Quando tudo estiver revisado e aprovado, as alterações são integradas à branch principal.
-
-5️⃣ Apagar a branch depois
-
-Após o merge, a branch de trabalho normalmente é removida, porque ela já cumpriu sua função.
-
-Resumo
-
-Pull Request é um processo para revisar, discutir e aprovar mudanças antes de adicioná-las ao projeto.
-Ele garante mais organização, controle e qualidade no código.
+Resumo: PR garante organização e qualidade.
