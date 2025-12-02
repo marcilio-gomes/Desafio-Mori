@@ -3,24 +3,31 @@
 </h1>
 
 <h2 style="font-size: 26px; font-weight: 600;">
-📘 Resumo completo das aulas | Professor: Kenji Taniguchi & Felipe Ozias
+📘 Resumo completo das aulas
 </h2>
 
 <!-- Fotos dos Professores -->
-<div style="display: flex; gap: 40px; margin: 20px 0; justify-content: center; align-items: center;">
+<div style="display: flex; gap: 40px; margin: 20px 0; justify-content: center; align-items: center; margin-top:50px">
 
-  <div style="text-align: center;">
+  <div style="text-align: left;">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQFtxqy9GkWYcw/profile-displayphoto-shrink_800_800/B4DZZ5qgN.G4Ac-/0/1745797907985?e=1766016000&v=beta&t=dnfkFQwPaWoNGNdRDBsdl2-91dIjfIDYDLiOlv4VgdE" 
          alt="Professor Kenji Taniguchi"
          style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
-    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Kenji Taniguchi</p>
+    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Prof: Kenji Taniguchi</p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/C4E03AQEBIe5pHKjolw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1653049415783?e=1766016000&v=beta&t=EIk-uJeoMKF6Wc2Oj6trNw4KBxKOZtwkD-RrT-QmNXU" 
          alt="Professor Felipe Ozias"
          style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
-    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Felipe Ozias</p>
+    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Prof: Felipe Ozias</p>
+  </div>
+
+   <div style="text-align: right;">
+    <img src="https://avatars.githubusercontent.com/u/151972957?v=4"
+         alt="Leonardo Mori"
+         style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
+    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Mentor: Leonardo Mori</p>
   </div>
 
 </div>
@@ -121,8 +128,8 @@ Interface que usa HTTP para troca de dados de forma padronizada.
 
 🔹 <b>Arquitetura em 3 camadas</b>
 
-- Apresentação  
-- Lógica  
+- Apresentação
+- Lógica
 - Dados
 
 🔹 <b>JSON x XML</b>  
@@ -329,7 +336,7 @@ Combina branches.
 🔹 Conectar projeto  
 🔹 Enviar arquivos  
 🔹 Enviar novas alterações  
-🔹 Baixar atualizações  
+🔹 Baixar atualizações
 
 Resumo: o repositório remoto é onde seu projeto mora na nuvem.
 
@@ -357,6 +364,11 @@ Resumo: PR garante organização e qualidade.
 
 ---
 
-<a href="https://github.com/marcilio-gomes/Desafio-Mori">
-  <img src="https://img.shields.io/github/stars/marcilio-gomes/Desafio-Mori?style=social" alt="GitHub stars">
-</a>
+<h3 style="font-size: 22px; font-weight: bold;">Link do Repósitório</h3>
+<b><a href="https://github.com/marcilio-gomes/Desafio-Mori"> <img src="https://img.shields.io/badge/Acessar%20Repositório-000?style=for-the-badge&logo=github&logoColor=white" width="260" /> </a></b>
+
+## 🔁 Animações — Git · Redes · Internet
+
+|                   🔧 Git |            🌐 Redes            |            🌍 Internet             |
+| -----------------------: | :----------------------------: | :--------------------------------: |
+| ![Git](./assets/git.gif) | ![Redes](./assets/network.gif) | ![Internet](./assets/internet.gif) |
