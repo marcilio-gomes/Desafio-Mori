@@ -6,6 +6,25 @@
 📘 Resumo completo das aulas | Professor: Kenji Taniguchi & Felipe Ozias
 </h2>
 
+<!-- Fotos dos Professores -->
+<div style="display: flex; gap: 40px; margin: 20px 0; justify-content: center; align-items: center;">
+
+  <div style="text-align: center;">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFtxqy9GkWYcw/profile-displayphoto-shrink_800_800/B4DZZ5qgN.G4Ac-/0/1745797907985?e=1766016000&v=beta&t=dnfkFQwPaWoNGNdRDBsdl2-91dIjfIDYDLiOlv4VgdE" 
+         alt="Professor Kenji Taniguchi"
+         style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
+    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Kenji Taniguchi</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="https://media.licdn.com/dms/image/v2/C4E03AQEBIe5pHKjolw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1653049415783?e=1766016000&v=beta&t=EIk-uJeoMKF6Wc2Oj6trNw4KBxKOZtwkD-RrT-QmNXU" 
+         alt="Professor Felipe Ozias"
+         style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
+    <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">Felipe Ozias</p>
+  </div>
+
+</div>
+
 <h3 style="font-size: 22px; font-weight: bold;">
 ✨ Visão Geral
 </h3>
@@ -20,28 +39,28 @@ Perfeito para estudos, revisões e provas.
 📚 AULA HARD #1 – Protocolos de Comunicação em Redes
 </h3>
 
-🧩 **Matéria:** Introdução às Redes e à Internet
+🧩 <b>Matéria:</b> Introdução às Redes e à Internet
 
-🔹 **Topologia utilizada pelos backbones**  
+🔹 <b>Topologia utilizada pelos backbones</b>  
 Backbones usam topologia em malha (mesh) para garantir alta redundância e rotas alternativas caso um enlace falhe.
 
-🔹 **Semiótica na rede de computadores**  
+🔹 <b>Semiótica na rede de computadores</b>  
 Estuda como mensagens e sinais são interpretados na comunicação — essencial para entender protocolos.
 
-🔹 **Internet x Intranet x Extranet**  
-🌍 **Internet:** rede global pública  
-🏢 **Intranet:** rede privada interna  
-🔗 **Extranet:** parte da intranet acessível a parceiros externos
+🔹 <b>Internet x Intranet x Extranet</b>  
+🌍 <b>Internet:</b> rede global pública  
+🏢 <b>Intranet:</b> rede privada interna  
+🔗 <b>Extranet:</b> parte da intranet acessível a parceiros externos
 
-🔹 **AJAX**  
+🔹 <b>AJAX</b>  
 Permite atualizar partes da página sem recarregar tudo, usando JavaScript + HTTP.
 
-🔹 **Ferramentas UI/UX**  
+🔹 <b>Ferramentas UI/UX</b>  
 Figma, Adobe XD e Sketch ajudam a planejar telas intuitivas e funcionais.
 
-🔹 **IA x Machine Learning**  
-🤖 **IA:** máquinas que imitam inteligência.  
-📈 **ML:** técnica dentro da IA que aprende com dados.
+🔹 <b>IA x Machine Learning</b>  
+🤖 <b>IA:</b> máquinas que imitam inteligência.  
+📈 <b>ML:</b> técnica dentro da IA que aprende com dados.
 
 ---
 
@@ -49,19 +68,19 @@ Figma, Adobe XD e Sketch ajudam a planejar telas intuitivas e funcionais.
 📚 AULA HARD #2 – Endereçamento IP, Sub-redes e Portas
 </h3>
 
-🔹 **NAT**  
+🔹 <b>NAT</b>  
 Traduz IPs privados → públicos para economizar IPv4.  
 Problemas: quebra de ponta a ponta, dificulta P2P e geolocalização.
 
-🔹 **TCP x UDP**  
-**TCP:** confiável, com confirmação.  
-**UDP:** rápido, sem garantia.  
+🔹 <b>TCP x UDP</b>  
+<b>TCP:</b> confiável, com confirmação.  
+<b>UDP:</b> rápido, sem garantia.  
 A web usa TCP por confiabilidade.
 
-🔹 **TLS**  
+🔹 <b>TLS</b>  
 Criptografa e autentica comunicações. Impede espionagem, adulteração e fraudes.
 
-🔹 **Contratos Inteligentes**  
+🔹 <b>Contratos Inteligentes</b>  
 Programas que executam regras automaticamente em blockchains.
 
 ---
@@ -70,25 +89,25 @@ Programas que executam regras automaticamente em blockchains.
 📚 AULA HARD #3 – Serviços e Aplicações na Internet
 </h3>
 
-🔹 **Confiabilidade**  
+🔹 <b>Confiabilidade</b>  
 Erros podem vir de falha de rede, perda de pacotes ou aplicações mal projetadas.
 
-🔹 **IPv4 → IPv6**  
+🔹 <b>IPv4 → IPv6</b>  
 IPv6 resolve o esgotamento de endereços e melhora a eficiência.
 
-🔹 **Unicast / Multicast / Broadcast**  
-👤 **Unicast:** um para um  
-👥 **Multicast:** um para grupo  
-📢 **Broadcast:** um para todos
+🔹 <b>Unicast / Multicast / Broadcast</b>  
+👤 <b>Unicast:</b> um para um  
+👥 <b>Multicast:</b> um para grupo  
+📢 <b>Broadcast:</b> um para todos
 
-🔹 **Bloqueio de portas**  
+🔹 <b>Bloqueio de portas</b>  
 Provedores bloqueiam por segurança.  
 Soluções: VPN, portas alternativas ou tunelamento.
 
-🔹 **QoS**  
+🔹 <b>QoS</b>  
 Controla prioridade e qualidade do tráfego.
 
-🔹 **VPN**  
+🔹 <b>VPN</b>  
 Cria um túnel seguro criptografado entre cliente e servidor.
 
 ---
@@ -97,32 +116,32 @@ Cria um túnel seguro criptografado entre cliente e servidor.
 📚 AULA HARD #4 – Serviços e Aplicações
 </h3>
 
-🔹 **API RESTful**  
+🔹 <b>API RESTful</b>  
 Interface que usa HTTP para troca de dados de forma padronizada.
 
-🔹 **Arquitetura em 3 camadas**
+🔹 <b>Arquitetura em 3 camadas</b>
 
-- Apresentação
-- Lógica
+- Apresentação  
+- Lógica  
 - Dados
 
-🔹 **JSON x XML**  
-**JSON:** leve, moderno.  
-**XML:** mais verboso e flexível.
+🔹 <b>JSON x XML</b>  
+<b>JSON:</b> leve, moderno.  
+<b>XML:</b> mais verboso e flexível.
 
-🔹 **Protobuf**  
+🔹 <b>Protobuf</b>  
 Formato binário rápido e compacto.
 
-🔹 **YAML**  
+🔹 <b>YAML</b>  
 Formato simples para configurações (Docker, Kubernetes, CI/CD).
 
-🔹 **Microsserviços**  
+🔹 <b>Microsserviços</b>  
 Arquitetura com serviços independentes e escaláveis.
 
-🔹 **OAuth**  
+🔹 <b>OAuth</b>  
 Autenticação via terceiros (Google, Facebook).
 
-🔹 **DDoS**  
+🔹 <b>DDoS</b>  
 Ataques que sobrecarregam servidores.  
 Soluções: WAF, rate limiting, CDN.
 
@@ -132,23 +151,23 @@ Soluções: WAF, rate limiting, CDN.
 📚 AULA HARD #5 – DNS
 </h3>
 
-🔹 **Envenenamento de Cache**  
+🔹 <b>Envenenamento de Cache</b>  
 Engana resolvers com IPs falsos.  
 Evita-se com DNSSEC e validação.
 
-🔹 **NS Lookup**  
+🔹 <b>NS Lookup</b>  
 Consulta registros DNS.
 
-🔹 **Registro PTR**  
+🔹 <b>Registro PTR</b>  
 Aponta IP → domínio; difícil por depender do provedor.
 
-🔹 **DNS Dinâmico**  
+🔹 <b>DNS Dinâmico</b>  
 Atualiza registros automaticamente quando o IP muda.
 
-🔹 **Migração de Domínio**  
+🔹 <b>Migração de Domínio</b>  
 Exige cuidado para evitar indisponibilidade e perda de e-mails.
 
-🔹 **Registro de Domínio**  
+🔹 <b>Registro de Domínio</b>  
 Feito por entidades como Registro.br.
 
 ---
@@ -157,11 +176,11 @@ Feito por entidades como Registro.br.
 📚 AULA HARD #6 – Arquitetura da Internet
 </h3>
 
-🔹 **Ataques DDoS**  
+🔹 <b>Ataques DDoS</b>  
 Saturam servidores com tráfego falso.  
 Mitigação: blackholing, rate limiting, Firewalls/Cloudflare.
 
-🔹 **Roteamento Unicast/Multicast**  
+🔹 <b>Roteamento Unicast/Multicast</b>  
 Define como pacotes vão individualmente ou para grupos.
 
 ---
@@ -170,19 +189,19 @@ Define como pacotes vão individualmente ou para grupos.
 📚 AULA HARD #7 – Redes de Computadores
 </h3>
 
-🔹 **Latência**  
+🔹 <b>Latência</b>  
 Tempo de resposta; influenciada por distância e congestionamento.
 
-🔹 **Insider Threat**  
+🔹 <b>Insider Threat</b>  
 Ameaça interna causada por funcionários.
 
-🔹 **LAN, WAN, MAN, PAN**  
+🔹 <b>LAN, WAN, MAN, PAN</b>  
 LAN: local  
 WAN: longa distância  
 MAN: metropolitana  
 PAN: pessoal
 
-🔹 **Ethernet x Token Ring**  
+🔹 <b>Ethernet x Token Ring</b>  
 Token Ring é eficiente, porém obsoleto.
 
 ---
@@ -191,25 +210,25 @@ Token Ring é eficiente, porém obsoleto.
 📚 AULA HARD #8 – Segurança de Redes
 </h3>
 
-🔹 **Ameaças**  
+🔹 <b>Ameaças</b>  
 Phishing, ransomware, MITM, DDoS.
 
-🔹 **CIA (Disponibilidade, Integridade, Confidencialidade)**
+🔹 <b>CIA (Disponibilidade, Integridade, Confidencialidade)</b>
 
-🔹 **Malwares**  
+🔹 <b>Malwares</b>  
 Exploram falhas.
 
-🔹 **VPN Remota e Site-to-Site**  
+🔹 <b>VPN Remota e Site-to-Site</b>  
 Conectam usuários ou redes.
 
-🔹 **Container x VM**  
+🔹 <b>Container x VM</b>  
 Containers = leves  
 VMs = maior isolamento
 
-🔹 **Patches**  
+🔹 <b>Patches</b>  
 Corrigem vulnerabilidades.
 
-🔹 **ORM**  
+🔹 <b>ORM</b>  
 Evita SQL Injection.
 
 ---
@@ -218,21 +237,21 @@ Evita SQL Injection.
 📚 AULA HARD #9 – Segurança na Web
 </h3>
 
-🔹 **HTTPS**  
+🔹 <b>HTTPS</b>  
 Criptografia + integridade + autenticação.
 
-🔹 **TLS/SSL**  
+🔹 <b>TLS/SSL</b>  
 Handshake assimétrico + dados simétricos.
 
-🔹 **Certificados**  
+🔹 <b>Certificados</b>  
 Validados por CAs.
 
-🔹 **Renovação**  
+🔹 <b>Renovação</b>  
 Certificados expiram e tornam o site inseguro.
 
-🔹 **Confidencialidade / Integridade / Autenticidade**
+🔹 <b>Confidencialidade / Integridade / Autenticidade</b>
 
-🔹 **Criptografia ponta a ponta**  
+🔹 <b>Criptografia ponta a ponta</b>  
 Somente origem e destino leem.
 
 ---
@@ -241,23 +260,23 @@ Somente origem e destino leem.
 📚 AULA HARD #10 – Tendências e Desafios nas Redes Modernas
 </h3>
 
-🔹 **IoT**  
+🔹 <b>IoT</b>  
 Desafios de segurança e protocolos (MQTT, CoAP).
 
-🔹 **SDN**  
+🔹 <b>SDN</b>  
 Redes programáveis.
 
-🔹 **Blockchain**  
+🔹 <b>Blockchain</b>  
 Blocos encadeados + consenso.
 
-🔹 **CDNs**  
+🔹 <b>CDNs</b>  
 Caching, performance, segurança.
 
-🔹 **Cloud vs On-Premise**  
+🔹 <b>Cloud vs On-Premise</b>  
 Nuvem = escalável  
 Local = mais controle
 
-🔹 **Serviços**  
+🔹 <b>Serviços</b>  
 Cloudflare, AWS S3.
 
 ---
@@ -266,21 +285,21 @@ Cloudflare, AWS S3.
 📚 AULA HARD Git #1 – Git, VSCode e GitLens
 </h3>
 
-🔹 **O que é Git**  
+🔹 <b>O que é Git</b>  
 Sistema de controle de versão.
 
-🔹 **O que é VS Code**  
+🔹 <b>O que é VS Code</b>  
 Editor rápido e extensível.
 
-🔹 **Configurações**  
-`git config --global`
+🔹 <b>Configurações</b>  
+<code>git config --global</code>
 
-🔹 **Restore x Reset**
+🔹 <b>Restore x Reset</b>
 
-🔹 **GitLens**  
+🔹 <b>GitLens</b>  
 Histórico e comparações.
 
-🔹 **Boas práticas**
+🔹 <b>Boas práticas</b>
 
 ---
 
@@ -288,16 +307,16 @@ Histórico e comparações.
 📚 AULA HARD Git #2 – Branches e Merge
 </h3>
 
-🔹 **Branch**  
+🔹 <b>Branch</b>  
 Linha separada.
 
-🔹 **HEAD**  
+🔹 <b>HEAD</b>  
 Aponta para o commit atual.
 
-🔹 **git stash**  
+🔹 <b>git stash</b>  
 Guarda mudanças temporárias.
 
-🔹 **Merge**  
+🔹 <b>Merge</b>  
 Combina branches.
 
 ---
@@ -310,7 +329,7 @@ Combina branches.
 🔹 Conectar projeto  
 🔹 Enviar arquivos  
 🔹 Enviar novas alterações  
-🔹 Baixar atualizações
+🔹 Baixar atualizações  
 
 Resumo: o repositório remoto é onde seu projeto mora na nuvem.
 
@@ -320,18 +339,24 @@ Resumo: o repositório remoto é onde seu projeto mora na nuvem.
 📚 AULA HARD Git #4 – Pull Request
 </h3>
 
-🔹 **O que é um Pull Request?**  
+🔹 <b>O que é um Pull Request?</b>  
 Pedido para revisar e juntar código.
 
-🔹 **Quando usar**  
+🔹 <b>Quando usar</b>  
 Branches, revisões e organização.
 
-🔹 **Como funciona**  
+🔹 <b>Como funciona</b>  
 Você envia uma branch e abre o PR.
 
-🔹 **Revisão**  
+🔹 <b>Revisão</b>  
 Comentários, ajustes e aprovação.
 
-🔹 **Merge e exclusão da branch**
+🔹 <b>Merge e exclusão da branch</b>
 
 Resumo: PR garante organização e qualidade.
+
+---
+
+<a href="https://github.com/marcilio-gomes/Desafio-Mori">
+  <img src="https://img.shields.io/github/stars/marcilio-gomes/Desafio-Mori?style=social" alt="GitHub stars">
+</a>
